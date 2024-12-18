@@ -1,0 +1,62 @@
+@media  screen and (max-width:706px) {
+  nav {
+    background: #1B1833;
+  }
+  .link-nav {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: #1B1833;
+    height: 100vh;
+    top: 100%;
+    gap: 2rem;
+    padding: 1rem;
+    right: -100%;
+    transition: .3s ease-in-out;
+  }
+
+  .link-nav.aktifLlinkNav{
+    right: 0;
+  }
+
+  .icons-nav {
+    justify-content: center;
+    gap: 1rem;
+  }
+  .icons-nav .text{
+    display: none;
+  }
+  .menu-nav {
+    display: block;
+  }
+  
+  /* .input-search.aktifSearch { */
+    /* top: -250%; */
+  /* } */
+
+
+  .hiro {
+    display: flex;
+    flex-direction: column;
+    height: 125vh;
+  }
+  .row-hiro-img {
+    display: flex;
+    width: 60%;
+  }
+  .row-hiro-img2 {
+    width: 30%;
+    padding: 0;
+  }
+  .row-img-detail {
+    width: 100%;
+  }
+  
+
+  .img-shoope {
+  width: 100%;
+  }
+
+}
+
